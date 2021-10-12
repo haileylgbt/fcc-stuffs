@@ -16,6 +16,11 @@ body {
   margin-left: 10px;
 }
 
+#projects h1{
+  text-align: center;
+  font-size: 70px;
+}
+
 header h1,
 header p {
   display: flex;
@@ -64,7 +69,11 @@ nav li {
   border-radius: 25px;
   background-color: white;
   opacity: 90%;
-  text-align: center;
+  text-align: left;
+}
+
+#welcome-box h1 {
+  font-size: 50px;
 }
 
 #navbar {
