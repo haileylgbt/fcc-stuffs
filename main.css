@@ -79,3 +79,56 @@ nav li {
 #navbar {
   background-color: white;
 }
+
+.container {
+  padding-left: 150px;
+  padding-right: 150px;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  grid-template-rows: 0.6fr 1.4fr 1fr;
+  gap: 64px 256px;
+  grid-template-areas:
+    "cudsys cambridge"
+    "runtime-error2 somethingidk"
+}
+
+.container h1{
+  font-size: 50px;
+  text-align: left;
+}
+
+.cudsys {
+  grid-area: cudsys;
+  border-radius: 25px;
+  background-color: rgb(222, 222, 222);
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+}
+
+.cambridge {
+  grid-area: cambridge;
+  border-radius: 25px;
+  background-color: rgb(222, 222, 222);
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+}
+
+.runtime-error2 {
+  grid-area: runtime-error2;
+  border-radius: 25px;
+  background-color: rgb(222, 222, 222);
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+}
+
+.somethingidk {
+  grid-area: somethingidk;
+  border-radius: 25px;
+  background-color: rgb(222, 222, 222);
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+}
