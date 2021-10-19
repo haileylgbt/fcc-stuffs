@@ -31,6 +31,15 @@ header p {
   height: 75px;
 }
 
+.aboutme {
+  padding-left: 100px;
+  padding-top: 75px;
+}
+
+.aboutme h1 {
+  font-size: 50px;
+}
+
 nav ul {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -72,7 +81,23 @@ nav li {
   text-align: left;
 }
 
-#welcome-box h1 {
+#aboutme-box {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 12.5px;
+  padding-bottom: 12.5px;
+  margin: auto;
+
+  margin-top: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 25px;
+  background-color: white;
+  opacity: 90%;
+  text-align: left;
+}
+
+#aboutme-box h1 {
   font-size: 50px;
 }
 
