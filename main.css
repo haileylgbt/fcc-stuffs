@@ -4,6 +4,10 @@ body {
   font-family: Ubuntu, Arial, sans-serif;
 }
 
+abbr {
+  text-decoration: none;
+}
+
 #header {
   display: flex;
   flex-direction: row;
@@ -110,8 +114,8 @@ nav li {
   padding-right: 150px;
   display: grid;
   grid-template-columns: 0.5fr 0.5fr;
-  grid-template-rows: 0.6fr 1.4fr 1fr;
-  gap: 64px 256px;
+  grid-template-rows: 0.6fr 0.6fr 0.6fr;
+  gap: 64px 100px;
   grid-template-areas:
     "cudsys cambridge"
     "runtime-error2 somethingidk"
@@ -156,4 +160,16 @@ nav li {
   padding-left: 25px;
   padding-right: 25px;
   padding-bottom: 10px;
+}
+
+.footer {
+  min-width: 833px;
+  margin-left: 0;
+  padding-top: 20px;
+  box-sizing: border-box;
+  position: relative;
+  min-height: 250px;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
